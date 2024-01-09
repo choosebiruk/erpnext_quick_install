@@ -11,6 +11,7 @@ To use this script, follow these steps:
 Make sure you install the latest package versions by updating system packages if you are running this script on a fresh Ubuntu machine.
 
 ```
+sudo apt install git
 sudo apt update && sudo apt -y upgrade
 ```
 and then reboot your machine 
@@ -33,6 +34,25 @@ sudo chmod +x erpnext_install.sh
 ```
 source erpnext_install.sh
 ```
+
+# Install Apps:
+
+1. Frappe Payments:
+```
+bench get-app payments
+bench --site [Site] install-app payments
+```
+2. Frappe HR:
+```
+bench get-app hrms
+bench --site [Site] install-app hrms
+```
+3. Frappe Non-Profit:
+```
+bench get-app non_profit
+bench --site [Site] install-app non_profit
+```
+
 # Compatibility
 
 Ubuntu 22.04 LTS,
