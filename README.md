@@ -8,7 +8,7 @@ To use this script, follow these steps:
 
 # Before Installation
 
-Make sure you install the latest package versions by updating system packages if you are running this script on a fresh Ubuntu machine.
+Make sure you install git and the latest package versions by updating system packages if you are running this script on a fresh Ubuntu machine.
 
 ```
 sudo apt install git
