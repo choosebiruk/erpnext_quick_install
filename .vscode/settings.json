@@ -1,0 +1,25 @@
+{
+    "cSpell.words": [
+        "Ababa",
+        "Addis",
+        "adduser",
+        "certbot",
+        "distutils",
+        "ERPN",
+        "erpnext",
+        "hrms",
+        "libfontconfig",
+        "libmysqlclient",
+        "multitenant",
+        "myname",
+        "mysqld",
+        "setuptools",
+        "supervisorctl",
+        "timedatectl",
+        "usermod",
+        "venv",
+        "wkhtmltopdf",
+        "xvfb",
+        "yourdomain"
+    ]
+}
